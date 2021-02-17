@@ -1,6 +1,8 @@
 /* 최근 작업 영역 CSS */
   .work-section {
-  margin-top:73px;
+  margin:73px auto;
+  width: 90%;
+  
   }
       
   .work-section .sec-tit {
@@ -12,6 +14,14 @@
   text-align:center;
   font-size: 25px;
   }
+  
+  .work-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
       
   .work-section .work-list li {
   width:100%;
@@ -21,8 +31,9 @@
   .work-section .work-list li .work_item {
   display:block;
   position:relative;
-  width:100%;
+  width:90%;
   height:100%;
+  margin: 0 auto;
   }
       
   .work-section .work-list li .work_item:before {

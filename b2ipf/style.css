@@ -9,7 +9,7 @@
 .clearfix::after,
 .container::after {
     display: block;
-    content: '';
+    content: "";
     clear: both;
 }
 
@@ -47,7 +47,7 @@
 /* 헤더 영역 */
 
 .header {
-    position: relative;
+    position: fixed;
     padding: 18px 5%;
     font-size: 26px;
     color: #3f51b5;
@@ -73,7 +73,7 @@
     z-index: 10;
 }
 
-.header .gnb li {
+.header.gnb li {
     border-bottom: 1px solid #303f9f;
 }
 
@@ -219,7 +219,7 @@
 }
 
 
-/* 태블릿 미디어쿼리 */
+/* 태블릿 */
 
 @media screen and (min-width: 768px) {
     /* 기본 CSS */
